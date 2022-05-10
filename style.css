@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@200;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Roboto Mono';
+}
+
+.section-header {
+    display: flex;
+    background-color: #006778;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    color: white;
+}
+
+.logotipo {
+    margin-left: 30px;
+}
+
+.flex-nav {
+    margin-right: 30px;
+}
+
+.flex-nav ul {    
+    display: flex;
+    max-width: 400px;
+    margin-left: 35px;
+}
+
+.flex-nav li {
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.flex-nav li a {
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 20px;    
+}
+
+.section-main{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    align-items: center;
+}
+
+.article-main h1 {
+    font-size: 42px;
+    margin-left: 10rem;
+    position: relative;
+    bottom: 40px;
+}
+
+.article-main p {
+    margin-left: 10rem;
+    position: relative;
+    bottom: 2rem;
+    font-family: 'Roboto mono';
+}
+
+.botao {
+    position: relative;
+    top: 8rem;
+    right: 35%;
+}
+
+button {
+    background-color: #006778;
+    padding: 10px 10px;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+}
+
+.section-main img {
+    width: 75%;
+    position: relative;
+    bottom: 1rem;
+}
+
+.section-main-servicos {
+    background: linear-gradient(60deg, rgba(0,147,171,1) 0%, rgba(0,103,120,1) 49%);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.article-main-servicos {
+    margin-top: 8rem;
+}
+
+.section-main-servicos .article-main-servicos h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.section-main-servicos .article-main-servicos p {
+    max-width: 410px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.cards {
+    background-color: white;
+    max-height: 300px;
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.cards .img-cards {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+.cards p {
+    max-width: 180px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Roboto mono';
+}
+
+.section-main-beneficios {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+#div-main-beneficios {
+    margin-top: 50px;
+}
+
+#div-main-beneficios article {
+    display: flex;
+}
+
+.ilustracao {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.ilustracao .linha-imaginaria1 {
+    width: 140%;
+    height: 1px;
+    background-color: #006778;
+    position: relative;
+    top: 10rem;
+    right: 25rem;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.ilustracao .linha-imaginaria2 {
+    width: 140%;
+    height: 1px;
+    background-color: #006778;
+    position: relative;
+    top: 10rem;
+    right: 25rem;
+    margin-top: 160px;
+}
+
+.ilustracao .img-cards {
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+}
+
+.ilustracao article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 390px;
+    justify-content: center;
+}
+
+.ilustracao article h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #006778;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
