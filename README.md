@@ -5,4 +5,5 @@ Desafios do Projeto:
 
 - Aplicar o uso do Flexbox;
 - Cards com ícones;
+- Html semântico;
 
