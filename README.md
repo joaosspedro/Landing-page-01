@@ -3,7 +3,7 @@ Meu primeiro projeto usando Flexbox. A idéia era criar algo simples, mas, que m
 
 #### Desafios do Projeto
 
+- HTML e CSS básico;
 - Aplicar o uso do Flexbox;
 - Cards com ícones;
 - Html semântico;
-
