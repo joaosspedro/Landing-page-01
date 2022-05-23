@@ -1,5 +1,5 @@
 # Landing Page 
-Landing page criada para praticar Html5 e Css3, incluindo a utilização de Flexbox durante o projeto.
+Meu primeiro projeto usando Flexbox. A idéia era criar algo simples, mas, que me ajudasse a praticar os conceitos que venho estudando.
 
 #### Desafios do Projeto
 
